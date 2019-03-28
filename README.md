@@ -8,4 +8,4 @@ Docker to run rMATS for splicing quantification and analysis
 - [python 2.7](https://python.org)
 
 ## Maintainer
-[Nuno Agostinho](mailto:nunodanielagostinho@gmail.com) - [Nuno Morais Lab](http://imm.medicina.ulisboa.pt/group/compbio/), iMM (2017)
+[Nuno Agostinho](mailto:nunodanielagostinho@gmail.com) - [Nuno Morais Lab](http://imm.medicina.ulisboa.pt/group/compbio/), iMM (2019)

@@ -39,5 +39,9 @@ RUN ln -s ${file} RNASeq-MATS.py
 
 RUN apt-get -y update
 RUN apt-get -y install libgfortran3
+RUN apt-get -y update
+RUN apt-get -y upgrade
+RUN apt-get -y install libgsl-dev libgsl23 libgslcblas0
+RUN ln /usr/lib/x86_64-linux-gnu/libgsl.so.23 /usr/lib/x86_64-linux-gnu/libgsl.so.0
 
 ENV PATH="${PATH}:/root"
